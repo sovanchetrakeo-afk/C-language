@@ -1,0 +1,12 @@
+#include <stdio.h> 
+int main() {
+    int thenumber;
+    printf("Put the number ");
+    scanf("%d", &thenumber);
+    if (( thenumber >= 1 && thenumber <=10) || (thenumber >=29 && thenumber <=51)) {
+        printf("Inside ranges\n");
+    }else {
+        printf(" Outside ranges\n");  
+    }    
+    return 0;
+}    
